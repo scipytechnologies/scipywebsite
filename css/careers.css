@@ -1,0 +1,200 @@
+@import url("./about.css");
+
+/* .num::after {
+  position: absolute;
+  right: 50px;
+  content: "+";
+} */
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+
+.team-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.career-candidates {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+}
+
+.projects-done {
+  width: 100%;
+  padding: 100px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Projects-div {
+  /* background-color: red; */
+  width: 100%;
+  padding: 0 12px;
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* gap: 100px; */
+}
+
+.pro-col {
+  width: 80%;
+  height: 100%;
+  /* width: 100%; */
+  padding: 0 20px;
+  list-style-type: none;
+  place-content: center;
+  list-style-type: decimal;
+  list-style-position: outside;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0092ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+/* .pro-col li::marker {
+ 
+  content: "➤";
+  font-size: 14px;
+  color: #0092ff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.pro-col h2 {
+  width: 100%;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pro-col li {
+  padding: 8px 12px;
+  list-style: none;
+}
+
+.Projects-list li::marker {
+  content: "➤";
+  color: #0092ff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-col li a {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1c2d38;
+  cursor: pointer;
+  padding: 5px 0;
+  background-image: linear-gradient(to right, #0092ff, #0092ff 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.pro-col li a::before {
+  content: "";
+  background: #0092ff;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.pro-col li a:hover {
+  background-position: 0;
+}
+.pro-col li a:hover::before {
+  width: 100%;
+}
+
+.jinisha{
+  position: absolute;
+  top: 0;
+  width: auto;
+}
+.monisha {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  aspect-ratio: 5/5.1;
+} 
+.megha {
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (max-width: 1460px) {
+  .career-candidates {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .project-title {
+    width: 500px;
+    align-self: center;
+  }
+  .career-candidates {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .career-candidates {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-title {
+    width: 300px;
+    align-self: center;
+  }
+  .Projects-div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } 
+  .pro-col {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .career-candidates {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .career-candidates {
+    grid-template-columns: 1fr;
+  }
+  
+}

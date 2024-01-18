@@ -1,0 +1,242 @@
+@import url("./projects.css");
+
+.navigation-menu {
+  z-index: 7;
+}
+.sidebar {
+  z-index: 8;
+}
+.contacts-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0 80px;
+}
+.adr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adr-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 0 0px;
+}
+.adr-col {
+  width: 100%;
+  max-width: 330px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  max-height: 120px;
+  margin: 0 0 10px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+.adr-col:hover {
+  box-shadow: 0px 0px 10px  rgba(0, 146, 255, 0.5);
+  transform: translateZ(20px) scale(1.02);
+}
+.txt {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: #1d2c38;
+  font-weight: 700;
+}
+.txth {
+  color: #393939;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.txth a {
+  color: #393939;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.footer-cta-container {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-cta {
+  position: relative;
+  width: 90%;
+  height: 200px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #0092ff;
+}
+.contact-text {
+  position: absolute;
+  font-size: 92px;
+  top: -45px;
+  border-bottom: 20px solid #ccc;
+  padding: 20px;
+  border-radius: 50%;
+  left: -10px;
+  font-family: "Inter", sans-serif;
+  color: #ccc;
+  opacity: 0.2;
+  font-weight: 700;
+  z-index: 4;
+}
+.rectangle-div {
+  position: absolute;
+  top: -200px;
+  left: -300px;
+  width: 600px;
+  opacity: 0.1;
+  transform: rotateZ(-50deg);
+  z-index: 3;
+  height: 400px;
+  background-color: #ffffff;
+}
+.rectangle-div2 {
+  position: absolute;
+  top: -200px;
+  left: 800px;
+  width: 600px;
+  opacity: 0.1;
+  transform: rotateZ(290deg);
+  z-index: 3;
+  height: 400px;
+  background-color: #000000;
+}
+.get-row {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-col {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.get-in-Text {
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.get-in-Text h2 {
+  margin-left: 80px;
+  margin-left: 5px 0 28px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.get-in-Text p {
+  margin-left: 80px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: -40px;
+  width: 500px;
+}
+.button-white {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-white-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-white-btn a {
+  margin-right: 80px;
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.main-white-btn a:hover {
+  background-color: #0092ff;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .get-in-Text h2 {
+    font-size: 32px;
+  }
+  .get-in-Text p {
+    font-size: 13px;
+    width: 300px;
+  }
+  .contact-text {
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .get-row {
+    flex-direction: column;
+  }
+  .get-col {
+    justify-content: center;
+    padding: 12px 24px;
+    margin-left: 10px;
+    margin: 0;
+  }
+  .get-in-Text h2 {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .get-in-Text p {
+    margin: 0;
+    margin-top: 20px;
+    width: fit-content;
+  }
+  .main-white-btn {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-white-btn a {
+    margin: 0;
+  }
+  .contact-text {
+    top: 5px;
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .adr-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .adr-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

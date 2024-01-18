@@ -1,580 +1,1333 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="icon" href="https://scipytechnologies.com/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
 
-<head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K9F8P76C');</script>
-    <!-- End Google Tag Manager -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Scipy Technologies | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://example.com/fontawesome/v6.4.2/js/fontawesome.js"
+      data-auto-replace-svg="nest"
+    ></script>
+  </head>
+  <body>
+    <div class="sidebar-closer"></div>
+    <div class="Gotohome">
+      <a><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="ping"></div>
+    <div class="whatsapp-btn">
+      <a
+        href="https://wa.me/918848080346?text=Hello%2C%20I%20have%20a%20question%20About%20Your%20Services"
+        target="_blank"
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+    </div>
+    <div class="content">
+      <!-- header section  -->
+      <section id="home-page" class="home-page">
+        <header id="header" class="navigation-menu">
+          <div class="auto-container">
+            <nav class="nav-bar">
+              <div class="logo" id="logo">
+                <img id="logo-image" src="./assets/header-logo.png" alt="" />
+              </div>
+              <div class="menu-list">
+                <ul style="margin: 0">
+                  <li>
+                    <a
+                      id="home"
+                      class="active-link home-color .main-a"
+                      style="color: #0092ff"
+                      href="#home-page"
+                      ><span>Home</span></a
+                    >
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="main-a">Services</a>
+                    <ul class="services-list">
+                      <li>
+                        <a href="./pages/websitedev.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">Website Development</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/digitalmarket.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">Digital Marketing</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/erppage.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">ERP Solutions</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/softwaredev.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span"
+                            >Software Development</span
+                          ></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/AdvancedTech.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">Advanced Tech</span></a
+                        >
+                      </li>
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-    <meta property="og:site_name" content="" /> <!-- website name -->
-    <meta property="og:site" content="" /> <!-- website link -->
-    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+                      <li>
+                        <a href="./pages/maintenance.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span"
+                            >Maintenance and Support</span
+                          ></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/advisory.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">Advisory</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/appdev.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">App Development</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/branding.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">Branding</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="./pages/aisol.html"
+                          ><span class="icon-span">⤥</span
+                          ><span class="text-span">AI Solutions</span></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a id="tech-btn" href="#" class="active-link"
+                      >Technologies</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./pages/careers.html" id="Careers-link">Careers</a>
+                  </li>
+                  <li>
+                    <a href="./pages/project.html" id="Careers-link"
+                      >Projects</a
+                    >
+                  </li>
 
-    <!-- Webpage Title -->
-    <title>Home|SciPy Technologies </title>
-
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61XSHCCQ8K"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-61XSHCCQ8K');
-    </script>
-
-</head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9F8P76C" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<body data-bs-spy="scroll" data-bs-target="#navbarExample">
-
-    <!-- Navigation -->
-    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
-        <div class="container">
-
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/header-logo.png"
-                    alt="alternative"></a>
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">SciPy</a> -->
-
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-                            aria-expanded="false">Services</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="softwaredevelopment.html">Software Development</a></li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-                            <li><a class="dropdown-item" href="Advancedtech.html">Advanced Tech</a></li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-                            <li><a class="dropdown-item" href="maintainance and support .html">Maintanance and
-                                    support</a></li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-                            <li><a class="dropdown-item" href="Advisory.html">Advisory</a></li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="technologies.html">Technologies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#details">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Contact us</a>
-                    </li>
-
+                  <li>
+                    <a id="About-us" class="active-link" href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a
+                      id="Contact-us"
+                      class="main-a"
+                      href="./pages/contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
                 </ul>
-                <span class="nav-item">
-                    <a class="btn-solid-sm" href="#contact">Get quote</a>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
-
-
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <h1 class="h1-large" style="color:rgb(0, 153, 255);">SciPy Technologies</h1>
-                        <h5 class="card-title">Make Your Move Mark Your Success</h5>
-                        <p class="p-large" style="text-align: justify;">SciPy Technologies is a Thiruvananthapuram based
-                            company offering unique
-                            solutions and a variety of services in the field of Artificial intelligence. Our family is
-                            setting the industry standards, positioning us as category leaders worldwide. Our team
-                            members are technology veterans, committed to providing smart solutions for any size of
-                            project. Contact us to request a demo or meet a member of our team.</p>
-                        <a class="btn-solid-lg" href="#services">Offered services</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/header-image.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header helolooo i am here -->
-    <!-- Invitation -->
-    <div class="basic-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h2>Are you looking for a developer team. if yes</h2>
-                        <p class="p-large">The Team includes career professionals having years of experience in
-                            Information Technology and Management. We as a Team provide our customers high quality
-                            products as per their requirements. Each Division is headed by the Team Leader, who guides
-                            the subordinates for effective training. In addition, we conducts training, seminar and
-                            workshop in colleges.</p>
-                        <a class="btn-solid-lg" href="#contact">Get free quote</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of invitation -->
-
-
-    <!-- Services -->
-    <div id="services" class="cards-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Our Services</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-icon">
-
-                            <span class="fas fa-laptop"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Software Development</h5>
-                            <p>Industry specific custom Software development solution for business enchancement and good
-                                will maintainance for customer satisfaction.</p>
-                            <a class="read-more no-line" href="softwaredevelopment.html">Learn more <span
-                                    class="fas fa-long-arrow-alt-right"></span></a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-icon red">
-                            <span class="fas fa-robot"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Advanced Tech</h5>
-                            <p>Our advanced technology features Artificial Intelligence and other main technology
-                                solutions for industry 4.0.</p>
-                            <a class="read-more no-line" href="Advancedtech.html">Learn more <span
-                                    class="fas fa-long-arrow-alt-right"></span></a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-icon green">
-                            <span class="fas fa-tools"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Advisory</h5>
-                            <p> Having a right advices from experts and services makes your firm topper,
-                                we provide many marketing services which needed to your bussiness growth. </p>
-                            <a class="read-more no-line" href="Advisory.html">Learn more <span
-                                    class="fas fa-long-arrow-alt-right"></span></a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-
-
-    <!-- Details 1 -->
-    <div id="details" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-1.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <div class="section-title">ABOUT US</div>
-                        <h2>Who we are......?</h2>
-                        <p>We mainly focus on Artificial intelligence (AI) is wide-ranging branch of computer science
-                            concerned with building smart machines capable of performing tasks that typically require
-                            human intelligence. AI is an interdisciplinary science with multiple approaches, but
-                            advancements in machine learning and deep learning are creating a paradigm shift in
-                            virtually every sector of the tech industry.</p>
-                        <a class="btn-solid-reg" href="#contact">Get quote</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of details 1 -->
-
-
-
-
-    <!-- Customers -->
-    <div class="slider-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4>Trusted by over <span class="blue">many</span> customers worldwide</h4>
-                    <hr class="section-divider">
-                    <div id="cont1">
-                        <div class="slideshow-container">
-
-                            <div class="mySlides fade">
-
-                                <img src="images/drama.webp" style="width:100%">
-
-                            </div>
-
-                            <div class="mySlides fade">
-
-                                <img src="images/isro (4).png" style="width:100%">
-
-                            </div>
-
-                            <div class="mySlides fade">
-
-                                <img src="images/risinh.jpg" style="width:100%">
-
-                            </div>
-
-                        </div>
-                        <br>
-
-                        <div style="text-align:center">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-
-                    </div>
-
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of customers -->
-
-    <div class="container mt-5 mb-5">
-        <div class="text-container">
-            <div class="section-title">TESTMONIALS</div>
-            <h2>What people wants to say about us......?</h2>
-
-        </div> <!-- end of text-container -->
-        <br>
-        <div class="row g-2">
-            <div class="col-md-4">
-                <div class="card p-3 text-center px-4">
-                    <div class="user-image"> <img src="images/nithya.jpeg" class="rounded-circle" width="80"> </div>
-                    <div class="user-content">
-                        <h5 class="mb-0">Nithya Rajendran</h5> <span class="section-title">Software Developer |
-                            saasvaap</span>
-                        <p> "Classes were so good and understanding. Very very supportive &
-                            helping faculties, they are out there to clear all our doubts.I would like to
-                            suggest scipy technologies to all my friends and colleagues...I just loved the friendly
-                            atmosphere out there... I am so thankful to the Scipy team."</p>
-                    </div>
-
+              </div>
+              <div class="quote-btn">
+                <a
+                  class="btn btn-outline-primary btn-effect"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdCflnzkgZQJeNpMCLHlw5WEfF2kC_A36-_trk5WjdEcW6fhA/viewform?usp=sf_link"
+                  >Get Quote</a
+                >
+                <div class="sidemenu-btn">
+                  <i class="fa-solid fa-bars"></i>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center px-4">
-                    <div class="user-image"> <img src="images/chinju.jpg" class="rounded-circle" width="80"> </div>
-                    <div class="user-content">
-                        <h5 class="mb-0">Chinju</h5> <span class="section-title">System Engineer |
-                            Infosys</span>
-                        <p> "If you are looking for a place to develop your skill and your dream job, here you are.. you
-                            reached your right
-                            destination. I have an awesome experience in SciPy Technologies during my internship.
-                            Amazing atmosphere and supportive staff members."</p>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div class="auto-container">
+          <div class="home-owl owl-carousel owl-theme">
+            <div
+              class="home-row item d-flex justify-content-between align-items-center m-auto"
+            >
+              <div class="home-col text-container">
+                <h1 class="h1-large fade-in">
+                  Digital <br class="br-tag" />
+                  Marketing
+                </h1>
+                <h5 class="home-card-title fade-in">
+                  Make Your Move Mark Your Success
+                </h5>
+                <p class="p-large fade-in">
+                  Scipy technologies redefine the  possibilities of the digital landscape through cutting-edge technologies. As a dynamic IT solutions provider, we specialize in AI, web development, and application development, driving businesses towards unparalleled success in the digital era.
+                </p>
+                <div class="services-div fade-in">
+                  <a
+                    id="service-btn"
+                    role="button"
+                    href="./pages/digitalmarket.html"
+                    class="btn btn-primary services-btn btn-effect"
+                  >
+                    <div class="text-wrap">
+                      <span class="text-1"
+                        >Get Services <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                      <!-- <span class="text-2">Get Services <i class="fa-solid fa-arrow-right"></i></span> -->
                     </div>
-
-
+                  </a>
                 </div>
+              </div>
+              <div class="home-col image-container">
+                <img
+                  id="moving-home-image"
+                  src="./assets/contacts/digitalsvg.svg"
+                  alt=""
+                />
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center px-4">
-                    <div class="user-image"> <img src="images/vargees.jpg" class="rounded-circle" width="80"> </div>
-                    <div class="user-content">
-                        <h5 class="mb-0">Varghese</h5> <span class="section-title">Software Developer |
-                            Capgemini India</span>
-                        <p> "SciPY is one of the best development teams I’ve worked with. The quality of work is
-                            excellent and their communication skills are top notch. Highly motivating members. I highly
-                            recommend this development
-                            team and will be working with them again!"</p>
+            <div
+              class="home-row item d-flex justify-content-between align-items-center m-auto"
+            >
+              <div class="home-col text-container">
+                <h1 class="h1-large fade-in">
+                  ERP <br class="br-tag" />
+                  Solutions
+                </h1>
+                <h5 class="home-card-title fade-in">
+                  Make Your Move Mark Your Success
+                </h5>
+                <p class="p-large fade-in">
+                  Scipy technologies redefine the  possibilities of the digital landscape through cutting-edge technologies. As a dynamic IT solutions provider, we specialize in AI, web development, and application development, driving businesses towards unparalleled success in the digital era.
+                </p>
+                <div class="services-div fade-in">
+                  <a
+                    id="service-btn"
+                    role="button"
+                    class="btn btn-primary services-btn btn-effect"
+                    href="./pages/erppage.html"
+                  >
+                    <div class="text-wrap">
+                      <span class="text-1"
+                        >Get Services <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                      <!-- <span class="text-2">Get Services <i class="fa-solid fa-arrow-right"></i></span> -->
                     </div>
-
+                  </a>
                 </div>
+              </div>
+              <div class="home-col image-container">
+                <img
+                  id="moving-home-image"
+                  src="./assets/contacts/erpsvg.svg"
+                  alt=""
+                />
+              </div>
             </div>
+            <div
+              class="home-row item d-flex justify-content-between align-items-center m-auto"
+            >
+              <div class="home-col text-container">
+                <h1 class="h1-large fade-in">
+                  Website <br class="br-tag" />
+                  Development
+                </h1>
+                <h5 class="home-card-title fade-in">
+                  Make Your Move Mark Your Success
+                </h5>
+                <p class="p-large fade-in">
+                  Crafting seamless digital experiences is our forte. Our web
+                  development team combines creativity with functionality to
+                  build websites that captivate and convert. Responsive design,
+                  intuitive navigation, and robust backend structures – we
+                  deliver websites that not only meet but exceed
+                  user expectations.
+                </p>
+                <div class="services-div fade-in">
+                  <a
+                    id="service-btn"
+                    role="button"
+                    href="./pages/websitedev.html"
+                    class="btn btn-primary services-btn btn-effect"
+                  >
+                    <div class="text-wrap">
+                      <span class="text-1"
+                        >Get Services <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                      <!-- <span class="text-2">Get Services <i class="fa-solid fa-arrow-right"></i></span> -->
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="home-col image-container">
+                <img
+                  id="moving-home-image"
+                  src="./assets/contacts/webdevsvg.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="home-row item d-flex justify-content-between align-items-center m-auto"
+            >
+              <div class="home-col text-container">
+                <h1 class="h1-large fade-in">
+                  AI <br class="br-tag" />
+                  Solutions
+                </h1>
+                <h5 class="home-card-title fade-in">
+                  Make Your Move Mark Your Success
+                </h5>
+                <p class="p-large fade-in">
+                  Unlock the potential of AI with our comprehensive solutions.
+                  From machine learning algorithms to natural language
+                  processing, we deploy intelligent systems that adapt, learn,
+                  and enhance business operations. Whether you're looking for
+                  predictive analytics, automation, or personalized user
+                  experiences, our AI expertise transforms
+                  concepts into reality.
+                </p>
+                <div class="services-div fade-in">
+                  <a
+                    id="service-btn"
+                    role="button"
+                    class="btn btn-primary services-btn btn-effect"
+                    href="./pages/aisol.html"
+                  >
+                    <div class="text-wrap">
+                      <span class="text-1"
+                        >Get Services <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                      <!-- <span class="text-2">Get Services <i class="fa-solid fa-arrow-right"></i></span> -->
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="home-col image-container"
+                style="width: auto; height: 600px; place-items: center"
+              >
+                <img
+                  id="moving-home-image"
+                  src="./assets/contacts/aisol.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <section id="services-sect" class="services-sect">
+        <div class="auto-container">
+          <div class="services-card">
+            <div class="service-owl owl-carousel owl-theme">
+              <div class="cards item" id="Software-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/softwaredev.html">Software Development</a>
+                  </h4>
+                  <p class="text-card">
+                    Industry specific custom Software development solution for
+                    business enchancement and good will maintainance for
+                    customer satisfaction.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="Advanced-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/AdvancedTech.html">Advanced Tech</a>
+                  </h4>
+                  <p class="text-card">
+                    Our advanced technology features Artificial Intelligence and
+                    other main technology solutions for industry 4.0.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="Maintainance-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-regular fa-circle-question"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/maintenance.html">Maintenance & Support</a>
+                  </h4>
+                  <p class="text-card">
+                    Our Maintenance & Support offer top quality well organised
+                    adaptive support.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="Advisory-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/advisory.html">Advisory</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="webdev-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-brands fa-chrome"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/websitedev.html">Website Development</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="digital-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-comments-dollar"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/advisory.html">Digital Marketing</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="erp-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/advisory.html">ERP Solutions</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="app-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-brands fa-app-store"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/appdev.html">App Development</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="brand-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-code-branch"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/branding.html">Branding</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="cards item" id="ai-service1">
+                <div class="card-upper">
+                  <div class="flat-icon">
+                    <i class="fa-solid fa-brain"></i>
+                  </div>
+                  <h4 class="card-heading">
+                    <a href="./pages/branding.html">AI Solutions</a>
+                  </h4>
+                  <p class="text-card">
+                    Having a right advices from experts and services makes your
+                    firm topper, we provide many marketing services which needed
+                    to your bussiness growth.
+                  </p>
+                </div>
+                <div class="card-lower">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="aboutus-sect" id="aboutus-sect">
+        <div class="fixed-img">
+          <img src="./assets/bg/pattern-2.png" alt="" />
+        </div>
+        <div class="auto-container">
+          <div class="aboutus-row">
+            <div class="aboutus-col">
+              <div class="img-contain">
+                <img src="./assets/details-1.png" alt="" />
+              </div>
+            </div>
+            <div class="aboutus-col">
+              <div class="txt-contain">
+                <h1 class="about-heading">
+                  <i class="fa-solid fa-users"></i>ABOUT US
+                </h1>
+                <h2>Who we are.....?</h2>
+                <p>
+                  Welcome to SciPy Technologies , where technology meets vision,
+                  and innovation becomes the driving force behind every
+                  solution. Established with a passion for reshaping the digital
+                  landscape, we are more than an IT company – we are architects
+                  of transformative experiences, pioneers of cutting-edge
+                  technology, and partners in your journey towards
+                  digital excellence.
+                </p>
+                <div class="aboutus-btn">
+                  <a href="./pages/aboutus.html">About Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-page">
+        <div class="auto-container">
+          <div class="gallery-title">
+            <h3 class="sec-title-gallery text-nowrap">
+              <i class="fa-brands fa-envira"></i>OUR GALLERY
+            </h3>
+            <h2 class="gallery-title-head">SciPy Tech Gallery</h2>
+            <div class="sec-title-seperator">
+              <div class="blue-item"></div>
+            </div>
+          </div>
+        </div>
+        <div class="outer-container">
+          <div class="gallery-owl owl-carousel owl-theme">
+            <div class="gal-card item">
+              <div class="top-hover-div">
+                <img
+                  class="gal-img"
+                  src="./assets/gallery/scipy (1).jpg"
+                  alt=""
+                />
+                <div class="gradient-text">
+                  <p></p>
+                  <h2>Meeting Room</h2>
+                </div>
+              </div>
+            </div>
+            <div class="gal-card item">
+              <div class="top-hover-div">
+                <img
+                  class="gal-img"
+                  src="./assets/gallery/scipy (4).jpg"
+                  alt=""
+                />
+                <div class="gradient-text">
+                  <p></p>
+                  <h2>Meeting Room</h2>
+                </div>
+              </div>
+            </div>
+            <div class="gal-card item">
+              <div class="top-hover-div">
+                <img
+                  class="gal-img"
+                  src="./assets/gallery/scipy (3).jpg"
+                  alt=""
+                />
+                <div class="gradient-text">
+                  <p></p>
+                  <h2>Software Application</h2>
+                </div>
+              </div>
+            </div>
+            <div class="gal-card item">
+              <div class="top-hover-div">
+                <img
+                  class="gal-img"
+                  src="./assets/gallery/scipy (2).jpg"
+                  alt=""
+                />
+                <div class="gradient-text">
+                  <p></p>
+                  <h2>Research & Development</h2>
+                </div>
+              </div>
+            </div>
+            <div class="gal-card item">
+              <div class="top-hover-div">
+                <img
+                  class="gal-img"
+                  src="./assets/gallery/scipy (5).jpg"
+                  alt=""
+                />
+                <div class="gradient-text">
+                  <p></p>
+                  <h2>Entrance</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="team-members">
+        <div class="auto-container">
+          <div class="gallery-title">
+            <h3 class="sec-title-gallery">
+              <i class="fa-solid fa-user-group"></i>OUR TEAM
+            </h3>
+            <h2 class="gallery-title-head">Team Members</h2>
+            <div class="sec-title-seperator">
+              <div class="blue-item"></div>
+            </div>
+          </div>
+          <div class="team-members-gallery">
+            <div class="team-row">
+              <div class="team-col">
+                <div class="team-image-div">
+                  <img
+                    class="team-img"
+                    src="https://i.pinimg.com/564x/b9/e0/e3/b9e0e30ac1ec95077b7e1d0abd250e5d.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="hover-social-menu d-flex justify-content-around align-items-baseline mt-3"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dreamer_rickz/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-bose-cp-125a55220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4><a href="#" class="member-name">Rahul Bose C P</a></h4>
+                  <p class="member-position">CFO</p>
+                </div>
+              </div>
+              <div class="team-col">
+                <div class="team-image-div">
+                  <img
+                    class="team-img"
+                    src="https://i.pinimg.com/564x/b9/e0/e3/b9e0e30ac1ec95077b7e1d0abd250e5d.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="hover-social-menu d-flex justify-content-around align-items-baseline mt-3"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/goku_monu/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gokul-krishnan-u-30193921a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4><a href="#" class="member-name">Gokul Krishnan U</a></h4>
+                  <p class="member-position">CEO</p>
+                </div>
+              </div>
+              <div class="team-col">
+                <div class="team-image-div">
+                  <img class="team-img" src="./assets/teams/women.jpg" alt="" />
+                  <div
+                    class="hover-social-menu d-flex justify-content-around align-items-baseline mt-3"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_me._.angel/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4><a href="#" class="member-name">Ashtamy Ajayan</a></h4>
+                  <p class="member-position">COO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="Clients-Section">
+        <div class="auto-container">
+          <div class="clients-title">
+            <h3><i class="fa-solid fa-briefcase"></i>Our Clients</h3>
+          </div>
+          <div class="clients">
+            <div class="owl-carousel owl-theme clients-owl">
+              <div class="clients-logo item">
+                <img src="./assets/clients/finnexia.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/gbsplus.svg" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/amrita logo.svg" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/mge-logo.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/maptell-logo.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/stjoseph.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/catholicate.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/canara.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/orian.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/tgrade.png" alt="" />
+              </div>
+              <div class="clients-logo item">
+                <img src="./assets/clients/woodstone.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tech-sect" class="Technologies-one">
+        <div class="auto-container">
+          <div class="gallery-title">
+            <h3 class="sec-title-gallery tech-heading text-nowrap">
+              <i class="fa-solid fa-microchip"></i>Technologies
+            </h3>
+            <h2 class="gallery-title-head"></h2>
+            <div class="sec-title-seperator">
+              <div class="blue-item"></div>
+            </div>
+          </div>
+          <div class="tech-row">
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>React.Js</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>MongoDB</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Node.Js</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Express.Js</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>React Native</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Next.Js</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Python</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Django</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Pytorch</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Flask</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                />
+              </div>
+              <div class="tech-down">
+                <h3>TensorFlow</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img
+                  src="./assets/technologies/artificial-intelligence.png"
+                  alt=""
+                />
+              </div>
+              <div class="tech-down">
+                <h3>Artificial Intelligence</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img src="./assets/technologies/MachineLearning.png" alt="" />
+              </div>
+              <div class="tech-down">
+                <h3>Machine Learning</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img src="./assets/technologies/Deep-learning.png" alt="" />
+              </div>
+              <div class="tech-down">
+                <h3>Deep Learning</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img src="./assets/technologies/electron js.png" alt="" />
+              </div>
+              <div class="tech-down">
+                <h3>Electron.Js</h3>
+              </div>
+            </div>
+            <div class="tech-card">
+              <div class="tech-up">
+                <img src="./assets/technologies/nlp.png" alt="" />
+              </div>
+              <div class="tech-down">
+                <h3>NLP</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-sect" class="contact-sect">
+        <div class="auto-container">
+          <div class="gallery-title">
+            <h3 class="sec-title-gallery text-nowrap">
+              <i class="fa-solid fa-headset"></i>CONTACT US
+            </h3>
+            <h2 class="gallery-title-head">How to reach us</h2>
+            <div class="sec-title-seperator">
+              <div class="blue-item"></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-col">
+              <div class="upper-contact">
+                <img src="./assets/contacts/webdevsvg.svg" alt="" />
+              </div>
+              <div class="lower-contact">
+                <h5><a href="#">Academic & Upgradation</a></h5>
+                <p class="contact-detail">
+                  <i class="fa-solid fa-phone"></i><span>+91 892-122-9471</span>
+                </p>
+                <p class="contact-detail" id="emailhr">
+                  <i class="fa-solid fa-envelope"></i
+                  ><span><a href="mailto:hr@scipy.com">hr@scipy.com</a></span>
+                </p>
+                <div class="contact-us">
+                  <a href="#"
+                    >Contact Us <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-col">
+              <div class="upper-contact">
+                <img src="./assets/contacts/digitalsvg.svg" alt="" />
+              </div>
+              <div class="lower-contact">
+                <h5><a href="#">Projects & Sales</a></h5>
+                <p class="contact-detail">
+                  <i class="fa-solid fa-phone"></i><span>+91 8921229471</span>
+                </p>
+                <p class="contact-detail">
+                  <i class="fa-solid fa-envelope"></i
+                  ><span
+                    ><a href="mailto:hello@scipytechnologies.com"
+                      >hello@scipytechnologies.com</a
+                    ></span
+                  >
+                </p>
+                <div class="contact-us">
+                  <a href="#"
+                    >Contact Us <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-col">
+              <div class="upper-contact">
+                <img src="./assets/contacts/erpsvg.svg" alt="" />
+              </div>
+              <div class="lower-contact">
+                <h5><a href="#">Consultations & Queries</a></h5>
+                <p class="contact-detail">
+                  <i class="fa-solid fa-phone"></i><span>+91 9048245318</span>
+                </p>
+                <p class="contact-detail">
+                  <i class="fa-solid fa-envelope"></i
+                  ><span
+                    ><a href="mailto:hello@scipytechnologies.com"
+                      >hello@scipytechnologies.com</a
+                    ></span
+                  >
+                </p>
+                <div class="contact-us">
+                  <a href="#"
+                    >Contact Us <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="company-loaction mb-5">
+            <div class="iframe-container">
+              <iframe
+                frameborder="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.9799481199416!2d76.94919077586248!3d8.501327297023833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb4d95185af%3A0x15f1640b53f2c59d!2sSciPy%20Technologies!5e0!3m2!1sen!2sin!4v1696574468092!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-main">
+        <div class="auto-container">
+          <div class="main-footer-widgets">
+            <div class="footer-col">
+              <div class="footer-widget-links">
+                <h4 class="footer-title">Company</h4>
+                <ul class="main-footer-list">
+                  <li><a id="home" href="#">Home</a></li>
+                  <li><a href="./pages/careers.html">Careers</a></li>
+                  <li><a href="./pages/project.html">Projects</a></li>
+                  <li>
+                    <a id="About-us" href="./pages/aboutus.html">About Us</a>
+                  </li>
+                  <li>
+                    <a id="About-us" href="./pages/contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-widget-links">
+                <h4 class="footer-title">Services</h4>
+                <ul class="main-footer-list serv-list">
+                  <li>
+                    <a href="./pages/websitedev.html">Website Development</a>
+                  </li>
+                  <li>
+                    <a href="./pages/digitalmarket.html">Digital Marketing</a>
+                  </li>
+                  <li>
+                    <a href="./pages/erppage.html">ERP Solutions</a>
+                  </li>
+                  <li>
+                    <a href="./pages/softwaredev.html">Software Development</a>
+                  </li>
+                  <li><a href="./pages/advisory.html">Advanced Tech</a></li>
+                  <li>
+                    <a href="./pages/maintenance.html"
+                      >Maintenance and Support</a
+                    >
+                  </li>
+                  <li><a href="./pages/advisory.html">Advisory</a></li>
+                  <li><a href="./pages/appdev.html">App Development</a></li>
+                  <li><a href="./pages/branding.html">Branding</a></li>
+                  <li><a href="./pages/aisol.html">AI Solutions</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-widget-links-2">
+                <h4 class="footer-title">Socials</h4>
+                <ul class="main-footer-list social-footer-list">
+                  <li>
+                    <a href="https://www.facebook.com/scipytechnologiez/"
+                      ><i class="fa-brands fa-facebook"></i>facebook</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/scipytechnologies/"
+                      ><i class="fa-brands fa-instagram"></i>instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/scipytechnologies/mycompany/"
+                      ><i class="fa-brands fa-linkedin"></i>linkedin</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:hello@scipytechnologies.com"
+                      ><i class="fa-solid fa-envelope"></i>mail us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h5 class="footer-title">Subscribe Us</h5>
+              <div class="footer-text">
+                Join us to our Newsletter and releases submit.
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Enter your email!" required />
+                <button type="submit" class="submit-newsletter">
+                  <i class="fa-solid fa-arrow-right email-arrow"></i>
+                </button>
+              </div>
+              <div class="footer-privacy">
+                Our <span class="blue-footer">Privacy Policy</span> and provide
+                consent to receive <br />
+                updates from our company.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-foot">
+          <div class="auto-container">
+            <div class="footer-copyright-text">
+              <span class="blue-footer">SciPy Technologies </span> ©
+              Copyright-2023 All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
+    <!-- Side bar menu for mobile and tablet views only -->
+    <div class="sidebar">
+      <div class="close-btn">
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="sidebar-menu">
+        <!-- <li><img src="./assets/header-logo.png" alt="Text" /></li> -->
+        <li><a id="home-sidebar" data-page="home" href="#">Home</a></li>
+        <li class="service-li">
+          <a id="toggle-service" data-page="Services" href="#"
+            >Services <i class="fa-solid fa-arrow-right serv-arrow"></i
+          ></a>
 
-    <!-- Features -->
-    <div id="features" class="accordion-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <h2 class="h2-heading">How to reach us</h2>
-                    <p class="p-heading"> We are happy to assist you for any kind of solutions you need, here you can
-                        contact us on</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-xl-5">
-                    <div class="accordion" id="accordionExample">
+          <ul id="menu" class="toogle-ul">
+            <li>
+              <a href="./pages/websitedev.html" data-page="Service1"
+                >Website Development</a
+              >
+            </li>
+            <li>
+              <a href="./pages/digitalmarket.html" data-page="Service1"
+                >Digital Marketing</a
+              >
+            </li>
+            <li>
+              <a href="./pages/erppage.html" data-page="Service1"
+                >ERP Solutions</a
+              >
+            </li>
+            <li>
+              <a href="./pages/softwaredev.html" data-page="Service1"
+                >Software Development</a
+              >
+            </li>
+            <li>
+              <a href="./pages/AdvancedTech.html" data-page="Service1"
+                >Advanced Tech</a
+              >
+            </li>
+            <li>
+              <a href="./pages/maintenance.html" data-page="Service1"
+                >Maintenance and Support</a
+              >
+            </li>
+            <li>
+              <a href="./pages/advisory.html" data-page="Service1">Advisory</a>
+            </li>
+            <li>
+              <a href="./pages/appdev.html" data-page="Service1"
+                >App Development</a
+              >
+            </li>
+            <li>
+              <a href="./pages/branding.html" data-page="Service1">Branding</a>
+            </li>
+            <li>
+              <a href="./pages/aisol.html" data-page="Service1">AI Solutions</a>
+            </li>
+          </ul>
+        </li>
+        <li><a id="tech-sidebar" href="#" data-page="Tech">Technologies</a></li>
+        <li><a href="./pages/careers.html" data-page="Careers">Careers</a></li>
+        <li><a href="./pages/project.html" data-page="Careers">Projects</a></li>
 
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon">
-                                <span class="fas fa-map-marker-alt" class="accordion-button" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Location
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <address>Sunny Mead Lane, <br>
-                                        Near Jubilee Hospital, <br>
-                                        First Floor,<br>
-                                        Erathodi, <br>
-                                        Palayam <br>
-                                        Trivandrum 695033</address>
-                                </div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
-
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon blue">
-                                <span class="fas fa-mobile-alt" class="accordion-button" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Call
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body"> <a href="tel:+91 9048245318" style="color: azure;"> +91
-                                        9048245318 </a><br><a href="tel:+91 8921229471" style="color: azure;">+91
-                                        8921229471</a></div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
-
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon purple">
-                                <span class="fas fa-envelope" class="accordion-button" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingThree">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Email
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><a href="mailto:scipytechnologies@gmail.com"
-                                        style="color: azure;">scipytechnologies@gmail.com </a> <br>
-                                    <a href="mailto:info@scipytechnologies.com" style="color: azure;">
-                                        info@scipytechnologies.com</a>
-                                </div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
-
-                        >
-
-                    </div> <!-- end of accordion -->
-                </div> <!-- end of col -->
-                <div class="col-xl-7">
-                    <div class="image-container">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.9532435385618!2d76.94886511410218!3d8.503920999334518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb4d95185af%3A0x15f1640b53f2c59d!2sSciPy%20Technologies!5e0!3m2!1sen!2sin!4v1633067426561!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of accordion-1 -->
-    <!-- end of features -->
-
-    <!-- Invitation -->
-    <div id="contact" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container" , align="center">
-                        <h2>Submit the form for Quote</h2>
-                        <p class="p-large">You can submit your need and details in the given form for the best quote you
-                            need. Our staff will connent you soon as posible to assist you for further way</p>
-                        <a class="btn-solid-lg" href="https://forms.gle/WUm1VVZMKMeoRw9r9">Get free quote</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of invitation -->
-
-
-
-    <!-- Footer -->
-    <div class="footer bg-gray">
-        <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4>If you want to know more about us. Follow us on soical media</h4>
-                    <div class="social-container">
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/SciPytechceo/?ref=page_internal">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://in.linkedin.com/in/scipy-technologies-64a093209">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x"></i>
-                            </a>
-                        </span>
-
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/scipytechnologies/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-
-                    </div> <!-- end of social-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright bg-gray">
-        <div class="container">
-            <div class="row">
-
-                <div>
-                    <p>Copyright ©2021 all right reserved to <a href="https://www.scipytechnologies.com">
-                            www.scipytechnologies.com</a></p>
-                </div> <!-- end of col -->
-
-
-
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright -->
-    <!-- end of copyright -->
-
-
-
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
-    </button>
-    <!-- end of back to top button -->
-
-    <!-- Scripts -->
+        <li>
+          <a id="About-us-sidebar" data-page="AboutUs" href="#">About Us</a>
+        </li>
+        <li>
+          <a
+            id="contact-sidebar"
+            href="./pages/contact.html"
+            data-page="ContactUs"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </div>
+    <script src="./js/Sidebarcollapse.js"></script>
     <script>
-        var slideIndex = 0;
-        showSlides();
+      const SoftwareCard1 = document.getElementById("Software-service1");
+      const AdvancedCard1 = document.getElementById("Advanced-service1");
+      const MaintenanceCard1 = document.getElementById("Maintainance-service1");
+      const AdvisoryCard1 = document.getElementById("Advisory-service1");
+      const WebdevCard1 = document.getElementById("webdev-service1");
+      const DigitalCard1 = document.getElementById("digital-service1");
+      const ERPCard1 = document.getElementById("erp-service1");
+      const appcard = document.getElementById("app-service1");
+      const brandcard = document.getElementById("brand-service1");
+      const aicard = document.getElementById("ai-service1");
 
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
+      WebdevCard1.addEventListener("click", () => {
+        window.location.href = "./pages/websitedev.html";
+      });
+
+      DigitalCard1.addEventListener("click", () => {
+        window.location.href = "./pages/digitalmarket.html";
+      });
+
+      ERPCard1.addEventListener("click", () => {
+        window.location.href = "./pages/erppage.html";
+      });
+
+      SoftwareCard1.addEventListener("click", () => {
+        window.location.href = "./pages/softwaredev.html";
+      });
+
+      AdvancedCard1.addEventListener("click", () => {
+        window.location.href = "./pages/AdvancedTech.html";
+      });
+
+      MaintenanceCard1.addEventListener("click", () => {
+        window.location.href = "./pages/maintenance.html";
+      });
+
+      AdvisoryCard1.addEventListener("click", () => {
+        window.location.href = "./pages/advisory.html";
+      });
+
+      appcard.addEventListener("click", () => {
+        window.location.href = "./pages/appdev.html";
+      });
+
+      brandcard.addEventListener("click", () => {
+        window.location.href = "./pages/branding.html";
+      });
+
+      aicard.addEventListener("click", () => {
+        window.location.href = "./pages/aisol.html";
+      });
     </script>
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Owl Carousel JavaScript and jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
