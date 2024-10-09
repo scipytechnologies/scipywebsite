@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/popup.css">
     <link rel="icon" href="./assets/Scipy Favicon.png" type="image/Favicon">
     
 <!-- Meta Pixel Code -->
@@ -43,13 +42,6 @@
     <!-- End Google Tag Manager -->
     
   <title> ScipyTechnolgoies | Best Software Solutions|Trivandrum,Kerala| </title>
-  
-
-  
-
-    
-  
-    
     <meta name="description" content="Best Software Solutions in Kerala,Trivandrum Experience transformational growth with our advanced software solutions & comprehensive training programs at Scipytechnologies.">
     <meta name="keywords" content="Best Software Solutions in Trivandrum,Best AI Solutions,scipy,scipyphotos,Erp,scipyreviews,Webdevelopment company,">
         
@@ -115,42 +107,13 @@
       src="https://example.com/fontawesome/v6.4.2/js/fontawesome.js"
       data-auto-replace-svg="nest"
     ></script>
-    <!-- ajax for popup form -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   
   <body>
-      <!-- popup form -->
-       <!-- Add this div for the loading spinner -->
-<!--  -->
-
-<!-- Ensure your form includes a submit button -->
-
-
-      <div id="popupModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" id="closeModal">&times;</span>
-            <h3 id="modalHead">Know More</h3>
-            <form id="popupForm" action="">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
-
-                <button id="popupbtn" type="submit">Submit</button>
-            </form>
-        </div>
-    </div>
-
     <div class="sidebar-closer"></div>
     <div class="Gotohome">
       <a><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    
     <div class="ping"></div>
     <div class="whatsapp-btn">
       <a
@@ -262,16 +225,10 @@
                       >Projects</a
                     >
                   </li>
-                  <li>
-                    <a href="./pages/blog.html" id="Careers-link"
-                      >Blog</a
-                    >
-                  </li>
 
                   <li>
                     <a id="About-us" class="active-link" href="#">About Us</a>
                   </li>
-                  
                   <li>
                     <a
                       id="Contact-us"
@@ -1181,7 +1138,6 @@
           </div>
         </div>
       </section>
-    
 
       <footer class="footer-main">
         <div class="auto-container">
@@ -1193,8 +1149,6 @@
                   <li><a id="home" href="#">Home</a></li>
                   <li><a href="./pages/careers.html">Careers</a></li>
                   <li><a href="./pages/project.html">Projects</a></li>
-                  <li><a href="./pages/blog.html">Blog</a></li>
-
                   <li>
                     <a id="About-us" href="./pages/aboutus.html">About Us</a>
                   </li>
@@ -1423,75 +1377,6 @@
         window.location.href = "./pages/aisol.html";
       });
     </script>
-<!-- script for popup form-->
-<script>
-  // Function to show the popup modal after 5 seconds
-  window.onload = function() {
-      // Check if the modal has already been shown in the current session
-      if (!sessionStorage.getItem('modalShown')) {
-          setTimeout(function() {
-              document.getElementById('popupModal').style.display = 'flex';
-              // Store a flag in sessionStorage to prevent it from showing again during this session
-              sessionStorage.setItem('modalShown', 'true');
-          }, 5000);
-      }
-  };
-
-  // Function to close the modal
-  document.getElementById('closeModal').onclick = function() {
-      document.getElementById('popupModal').style.display = 'none';
-  };
-
-  // Optional: Close modal when clicking outside of it
-  // window.onclick = function(event) {
-  //     var modal = document.getElementById('popupModal');
-  //     if (event.target == modal) {
-  //         modal.style.display = 'none';
-  //     }
-  // };
-</script>
-
-
-<!-- google sheet -->
-<script>
-  $("#popupForm").submit((e) => {
-      e.preventDefault();
-      
-      const submitButton = $("#popupForm").find("button[type='submit']");
-      submitButton.prop("disabled", true).text("Submitting..."); // Disable button and change text
-      
-      $("#loadingSpinner").show(); // Show loading spinner
-
-      $.ajax({
-          url: "https://script.google.com/macros/s/AKfycbzNF49RMEjhRBvDtcCDbumt9EN0wemqJVdceg0QPU5Aa9jVhN0J4FovFZKuNWPHSy6I/exec",
-          data: $("#popupForm").serialize(),
-          method: "post",
-          
-          success: function (response) {
-              // Hide the modal
-              document.getElementById("popupModal").style.display = "none";
-              // Reset the form
-              $("#popupForm")[0].reset();
-              // Re-enable the button and reset text
-              submitButton.prop("disabled", false).text("Submit");
-              $("#loadingSpinner").hide(); // Hide loading spinner
-
-              // Optionally redirect or show a success message
-              // window.location.href = "https://google.com";
-          },
-          error: function (err) {
-              alert("Something went wrong");
-              // Re-enable the button and reset text
-              submitButton.prop("disabled", false).text("Submit");
-              $("#loadingSpinner").hide(); // Hide loading spinner
-          }
-      });
-  });
-</script>
-
-
-
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
